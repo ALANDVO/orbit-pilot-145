@@ -1,2 +1,12 @@
-# orbit-pilot-145
-Alan Vo | Open-source Grok Bot alternative with a virtual machine that bots can use
+# orbit-pilot-145 — Alan Vo
+
+Current version: `1.0.0`.
+
+> Work in progress. This checkpoint may be incomplete or fail tests. See PLAN.md and STATUS.md before use.
+
+
+Maintainer: Alan Vo <alanvo@gmail.com>
+
+---
+
+Alan Vo · [alanvo.net](https://alanvo.net) · [X: @alanvoasi](https://x.com/alanvoasi)
