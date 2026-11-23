@@ -10,10 +10,14 @@ continue-implementation
 
 ### continue-implementation — Continue implementation and resolve known failures
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
+
+Implementation: `Updated tests/test_bot_api.py to use FastAPI app wrapper for proper HTTP error response capture`
+
+Tests: `tests/test_bot_api.py — all 6 tests now pass (previously 3 of 6 failed due to TestClient/HTTPException handling)`
 
 ---
 
