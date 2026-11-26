@@ -52,3 +52,12 @@ def test_check_bot_status():
     data = response.json()
     assert data["task_id"] == "test-task-002"
     assert data["status"] == "pending"
+
+
+
+
+def test_check_bot_status_empty_task_id():
+    """Test GET /bot/status/{task_id} rejects empty task_id with 400."""
+    client = TestClient(app)
+    response = client.get("/bot/status/%20")
+    assert response.status_code == 400
